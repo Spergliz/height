@@ -19,10 +19,6 @@ function analyzeNumber(number) {
 }
 
 function Greetings(name, TOD) {
-  if ((name = "eric")) {
-    return "hello eric";
-  }
-  if ((TOD = "morning")) {
+ 
   
   }
-}
