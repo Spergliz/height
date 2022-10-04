@@ -19,6 +19,16 @@ function analyzeNumber(number) {
 }
 
 function Greetings(name, TOD) {
- 
-  
-  }
+  return `Hello ${name}. Have a great ${TOD}!`;
+}
+
+function grade(number){
+if (number >80){
+  return "good job"
+} else if (number >49){
+  return "pass"
+} else {
+  return "fail"
+}
+
+}
