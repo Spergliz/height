@@ -10,9 +10,9 @@ function checkHeight(height) {
 
 function analyzeNumber(number) {
   if (number > 0) {
-    return "postive number";
+    return "postive";
   } else if (number < 0) {
-    return "negative number";
+    return "negative";
   } else {
     return "zero";
   }
