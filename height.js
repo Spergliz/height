@@ -32,10 +32,11 @@ function grade(number) {
   }
 }
 function abs(num) {
-  if (num > 0) {
-    return `${num}`;
+  if (num >= 0) {
+    return num;
   } else if (num < 0) {
     let A = num * -1;
     return A;
   }
 }
+
