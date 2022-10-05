@@ -22,13 +22,20 @@ function Greetings(name, TOD) {
   return `Hello ${name}. Have a great ${TOD}!`;
 }
 
-function grade(number){
-if (number >80){
-  return "good job"
-} else if (number >49){
-  return "pass"
-} else {
-  return "fail"
+function grade(number) {
+  if (number > 80) {
+    return "good job";
+  } else if (number > 49) {
+    return "pass";
+  } else {
+    return "fail";
+  }
 }
-
+function abs(num) {
+  if (num > 0) {
+    return `${num}`;
+  } else if (num < 0) {
+    let A = num * -1;
+    return A;
+  }
 }
