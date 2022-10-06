@@ -44,7 +44,8 @@ let A = Fahr = (Fahr -32)*5/9
 return A
 }
 function heron(a,b,c){
-
-
+let s= a+b+c/2
+let C= Math.sqrt(s-a*s-b*s-c)
+return C
 
 }
