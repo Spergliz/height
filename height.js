@@ -40,6 +40,7 @@ function abs(num) {
   }
 }
 function FTC(Fahr){
-
-  
+let A = Fahr = (Fahr -32)*5/9
+return A
 }
+function
