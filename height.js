@@ -39,4 +39,7 @@ function abs(num) {
     return A;
   }
 }
+function FTC(Fahr){
 
+  
+}
