@@ -34,18 +34,20 @@ function grade(number) {
 function abs(num) {
   if (num >= 0) {
     return num;
-  } else if (num < 0) {
-    let A = num * -1;
-    return A;
+  } else {
+   return num * -1;
   }
 }
 function FTC(Fahr){
-let A = Fahr = (Fahr -32)*5/9
-return A
+  return (Fahr -32)*5/9
+
 }
 function heron(a,b,c){
-let s= a+b+c/2
-let C= Math.sqrt(s-a*s-b*s-c)
-return C
+let s= (a+b+c)/2
+return Math.sqrt(s * (s-a) * (s-b) * (s-c));
+
+}
+function even(num){
+
 
 }
