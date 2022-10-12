@@ -62,6 +62,26 @@ function Divisibleby(num, div) {
   }
 }
 function pointlocation(X,Y){
+if (X===0 && Y===0) {
+  return "origin"
+} else if(Y===0){
+  return "x-axis"
+}else if(X===0){
+  return "Y-axis"
+} else if (X>0 && Y>0) {
+  return "quadrant I"
+} else if (X<0 && Y>0){
+  return "qaudrant II"
+} else if (X<0 && Y<0){
+  return "qaudrant III"
+} else {
+  return "qaudrant IV"
+}
+}
 
+function(num){
+  if(num===1 ){
+    return `${num}st`
 
+  }
 }
