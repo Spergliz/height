@@ -44,7 +44,7 @@ function FTC(Fahr) {
 function heron(a, b, c) {
   let s = (a + b + c) / 2;
   return Math.sqrt(s * (s - a) * (s - b) * (s - c));
-} // https://www.google.com/search?q=modulo&rlz=1C1GCEA_enCA1023CA1023&oq=modulo&aqs=chrome..69i57j0i131i433i512l3j0i512l5j0i131i433.3455j0j7&sourceid=chrome&ie=UTF-8
+} 
 function even(num) {
   let A = num % 2 
   if(A===0){
