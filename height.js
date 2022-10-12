@@ -44,12 +44,24 @@ function FTC(Fahr) {
 function heron(a, b, c) {
   let s = (a + b + c) / 2;
   return Math.sqrt(s * (s - a) * (s - b) * (s - c));
-} 
-function even(num) {
-  let A = num % 2 
-  if(A===0){
-    return "even"
-  } else {
-    return "odd"
 }
+function IsEven(num) {
+  let A = num % 2;
+  if (A === 0) {
+    return true;
+  } else {
+    return false;
   }
+}
+function Divisibleby(num, div) {
+  let A = num % div;
+  if (A === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function pointlocation(X,Y){
+
+
+}
