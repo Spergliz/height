@@ -79,9 +79,20 @@ if (X===0 && Y===0) {
 }
 }
 
-function(num){
+function adj(num){
   if(num===1 ){
     return `${num}st`
-
+  } else if(num===2){
+    return `${num}nd`
+  } else if (num===3){
+    return `${num}rd`
+  } else {
+    return `${num}th`
   }
+}
+
+function minPayment (pay){
+let A= pay*0.021
+ return A
+
 }
