@@ -45,6 +45,7 @@ function heron(a, b, c) {
   let s = (a + b + c) / 2;
   return Math.sqrt(s * (s - a) * (s - b) * (s - c));
 }
+//works up to 16 numbers, than just provides true no matter what 
 function IsEven(num) {
   let A = num % 2;
   if (A === 0) {
